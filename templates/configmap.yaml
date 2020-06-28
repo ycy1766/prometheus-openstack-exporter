@@ -9,7 +9,7 @@ data:
         auth:
           auth_url: http://keystone.openstack.svc.cluster.local:80/v3
           username: admin
-          password: HCloud12#$
+          password: --------
           project_domain_name: default
           user_domain_name: default
           project_name: admin
