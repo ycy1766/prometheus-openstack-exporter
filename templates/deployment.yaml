@@ -36,10 +36,6 @@ spec:
       - name: openstack-config
         configMap:
           name: openstack-exporter-auth
-    #  - name: openstack-config
-    #    hostPath:
-    #      path: /root/.config/openstack
-    #      type: Directory
     {{- with .Values.hostAliases }}
       hostAliases:
 {{ toYaml . | indent 8 }}
